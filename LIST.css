@@ -1,0 +1,62 @@
+.list h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+}
+
+.list h2 span {
+    color: var(--primary);
+}
+
+.list h2 {
+    margin-bottom: 1rem;
+    color: antiquewhite;
+    font-display: bold;
+}
+.list p {
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-weight: 100;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.list .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.list .row .list-card {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.list .row .list-card img {
+    border-radius: 30%;
+    width: 50%;
+    border-style: dashed; color: white;
+}
+
+.list .row .list-card .list-card-title {
+    margin: 1rem auto 0.5rem;
+    color: wheat;
+}
+
+body{
+    background-image: url('jettbg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.list h3 {
+    color: white;
+}
+
